@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card" id="birthdayCard">
+        <div class="front">
+            <h1>HAPPY BIRTHDAY AYE💖🎁</h1>
+              <p>click the button</p>
+            <button id="surpriseBtn">A Little Surprise for you</button>
+        </div>
+        <div class="back">
+            <!-- scrollable wrapper to contain long message -->
+            <div id="messageContainer">
+                <div id="message">
+                    <p>Happy Birthday Ayeeee💖,</p>
+                    <p>Today isn’t  just another date on the calendar. It’s the day someone as special as you was born.</p>
+                    <p>On your birthday, I want you to know how deeply you are loved. Not just for how you look, but for your heart, your strength, your kindness, your intelligence, and the way you make life feel softer and warmer. You inspire me to be better. You make me want to work harder, dream bigger, and love deeper.</p>
+                    <p>I don’t have much to offer you, but I promise to always be there for you, to support you in your dreams, and to love you unconditionally. You deserve every good thing God has kept for you.</p>
+                    <p>Yes, sometimes I do things that offend you, but I want you to know that I never do it intentionally. I’m sorry for the times I hurt you, and I promise to learn from my mistakes and be more mindful of your feelings. Your happiness means the world to me, and I will do everything in my power to make sure you feel loved and cherished every day.</p>
+                    <p>I pray this new age brings you happiness that overflows, success that shocks you, peace that calms every storm, and love that never runs dry. May everything you’ve been hoping for start aligning in your favor. You deserve the absolute best.</p>
+                    <p>Thank you for being patient with me. Thank you for believing in me. Thank you for choosing me. I don’t take your love for granted, not for one second.</p>
+                    <p>As you grow older, I want to grow with you. I want to celebrate your wins, comfort you on hard days, and build memories that we’ll smile about for years. No matter what comes, I’ll always cherish what we have.</p>
+                    <p>Happy Birthday to my girl, my best friend, my safe place, my happiness.</p>
+                    <p>I love you more than words can ever explain❤️</p>
+                    <p>LYNX🖤(Leave my Nickname for me o)</p>
+                </div>
+                <button id="previewBtn">Golden Moments</button>
+            </div>
+        </div> 
+        <div class="behind">
+            <div id="Images"></div>
+            <!-- link to quiz (will appear when media shown) -->
+            <button id="professionalBtn" style="margin:20px; display:none;">Memory Check😜</button>
+        </div>
+        </div> <!-- end of card -->
+        <!-- hidden quiz section; will appear when professionalBtn clicked -->
+        <div class="quiz-container" id="quizSection" style="display:none;">
+            <button id="closeQuizBtn" class="close-btn">Close</button>
+            <h1>Quick Quiz</h1>
+            <!-- questions will be rendered here -->
+            <div id="questionsWrapper"></div>
+        </div>
+        <!-- thank you overlay shown after quiz closes -->
+        <div id="thankyouOverlay">Thanks for your time. Once again, happy birthday!</div>
+    <div id="heartsContainer"></div>
+    <audio id="bgMusic" src="music.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
